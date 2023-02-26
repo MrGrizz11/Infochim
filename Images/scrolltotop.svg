@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 114.21 106.42">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #3fa9f5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+
+      .cls-2 {
+        fill: #3fa9f5;
+        font-family: Bahnschrift-Bold, Bahnschrift;
+        font-size: 20.1px;
+        font-variation-settings: 'wght' 700, 'wdth' 100;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.05em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <text class="cls-2" transform="translate(0 100.98)"><tspan x="0" y="0">Sc</tspan><tspan class="cls-3" x="22.39" y="0">r</tspan><tspan class="cls-4" x="30.77" y="0">oll </tspan><tspan class="cls-5" x="58.77" y="0">T</tspan><tspan x="67.37" y="0">o </tspan><tspan class="cls-6" x="83.72" y="0">T</tspan><tspan class="cls-4" x="92.32" y="0">op</tspan></text>
+    <path class="cls-1" d="m17.81,69.09c12.93-12.93,25.86-25.86,38.79-38.79,13.27,12.93,26.54,25.86,39.81,38.79"/>
+    <path class="cls-1" d="m17.81,42.79c12.93-12.93,25.86-25.86,38.79-38.79,13.27,12.93,26.54,25.86,39.81,38.79"/>
+  </g>
+</svg>

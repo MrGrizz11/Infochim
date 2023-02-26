@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.cdnfonts.com/css/bahnschrift" rel="stylesheet">
+    <link rel="shortcut icon" href="Images/tab_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="contacts.css">
+
+    <title>Infochim</title>
+</head>
+
+<body>
+    <button onclick="topFunction()" id="scroll-to-top"></button>
+
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a class="btn" href="home.html">Acasă</a></li>
+                <li><a class="btn" href="soft.html">Soft Educațional</a></li>
+                <li><a class="btn" href="web.html">Pagină Web</a></li>
+                <li><a class="btn" href="others.html">Alte Materiale</a></li>
+                <li><a class="btn active" href="contacts.html">Contacte</a></li>
+            </ul>
+        </nav>
+
+        <button onclick="close_menu()" id="close-menu">
+            <div class="line01"></div>
+            <div class="line02"></div>
+        </button>
+
+        <nav id="hidden-navbar">
+            <ul>
+                <li><a class="btn" href="home.html">Acasă</a></li>
+                <li><a class="btn" href="soft.html">Soft Educațional</a></li>
+                <li><a class="btn" href="web.html">Pagină Web</a></li>
+                <li><a class="btn" href="others.html">Alte Materiale</a></li>
+                <li><a class="btn active" href="contacts.html">Contacte</a></li>
+            </ul>
+        </nav>
+
+        <div class="gradient-line1" id="first-gradient-line"></div>
+
+        <div class="logo-area">
+            <img src="Images/infochim logo.svg" class="logo">
+
+            <button onclick="open_menu()" id="open-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </button>
+
+            <img src="Images/left deco.svg" class="left-deco">
+            <img src="Images/right deco.svg" class="right-deco">
+        </div>
+
+        <div class="gradient-line2"></div>
+    </header>
+
+    <h2 class="contact">Contactează-ne</h2>
+
+    <div class="contact-container">
+        <div class="map-container">
+            <iframe class="location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2711.607630558409!2d27.56427501586122!3d47.185118324991066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cafca45c596219%3A0x2c551b56d26f944b!2sInformatics%20Liceum%20Grigore%20C.%20Moisil!5e0!3m2!1sen!2sro!4v1677326471954!5m2!1sen!2sro"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        <div class="contacts-container">
+            <ul class="contacts-list">
+                <li>
+                    <img src="Images/location ico.svg" alt="Location">
+                    <a target="_blank" href="https://goo.gl/maps/TFY1vykLSBeHLAHF7" class="contacts-text">Str. Petre
+                        Andrei nr. 9, Iași</a>
+                </li>
+                <li>
+                    <img src="Images/phone ico.svg" alt="Phone">
+                    <a target="_blank" href="tel:0230 211 826" class="contacts-text">0230 211 826</a>
+                </li>
+                <li>
+                    <img src="Images/email ico.svg" alt="Email">
+                    <a target="_blank" href="mailto:infochim@liis.ro" class="contacts-text">infochim@liis.ro</a>
+                </li>
+                <li>
+                    <img src="Images/email ico.svg" alt="Email">
+                    <a target="_blank" href="mailto:mo-trupina@yahoo.com" class="contacts-text">mo-trupina@yahoo.com</a>
+                </li>
+                <li>
+                    <img src="Images/website ico.svg" alt="Website">
+                    <a target="_blank" href="https://www.liis.ro/" class="contacts-text">Site-ul liceului</a>
+                </li>
+                <li>
+                    <img src="Images/facebook ico.svg" alt="Facebook">
+                    <a target="_blank" href="https://www.facebook.com/licinfoiasi" class="contacts-text">Liceul nostru
+                        pe Facebook!</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <div class="gradient-line2"></div>
+        <div class="footer-text">Copyright © 2023 Munteanu Cristian aka Grizz. All rights Reserved</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
