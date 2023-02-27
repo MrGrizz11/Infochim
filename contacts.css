@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background: url(Images/background.svg) no-repeat;
+    background: url(Images/background.svg);
     background-size: cover;
 }
 
@@ -223,6 +223,40 @@ footer {
     display: none;
 }
 
+@media only screen and (max-width: 1024px) {
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact {
+        font-size: 18px;
+        margin-bottom: 32px;
+    }
+
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .map-container {
+        margin-right: 0;
+    }
+
+    .location {
+        margin-bottom: 35px;
+        width: 500px;
+        height: 300px;
+    }
+
+    .contacts-list li img {
+        width: 36px;
+        margin-left: 2px;
+        padding: 10px;
+    }
+}
+
 @media only screen and (max-width: 825px) {
     #navbar {
         display: none;
@@ -250,7 +284,7 @@ footer {
         transform: translate(0, 0);
         left: auto;
         top: auto;
-        width: 180px;
+        width: 215px;
         margin-left: 10px;
     }
 
@@ -351,6 +385,7 @@ footer {
         display: flex;
         flex-direction: column;
         margin: auto;
+        margin-bottom: 20px;
     }
 
     .map-container {
@@ -358,13 +393,9 @@ footer {
     }
 
     .location {
-        margin-bottom: 35px;
+        margin-bottom: 20px;
         width: 98%;
         height: auto;
-    }
-
-    .contacts-container {
-        font-size: 16px;
     }
 
     .contacts-list li img {
@@ -375,6 +406,7 @@ footer {
 
     footer {
         position: absolute;
+        bottom: 0;
     }
 
     .footer-text {
