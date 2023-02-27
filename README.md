@@ -1,1 +1,1 @@
-"# infochim2023" 
+https://liis.ro/~infochim/
