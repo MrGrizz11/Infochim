@@ -144,6 +144,16 @@ body {
     padding: 0;
 }
 
+.news > h1{
+    color: white;
+    text-align: center;
+}
+
+.news {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
 .about {
     background: linear-gradient(to bottom right, #406BF7, #9F00D4);
     border-radius: 50px;
@@ -254,6 +264,55 @@ h3 {
     text-align: center;
     margin: 0;
 }
+
+.section-title {
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+}
+
+.anunturi {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.post-link {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+.post {
+    display: inline-block;
+    align-items: center;
+    margin-bottom: 40px;
+    width: 60%;
+    padding: 30px;
+    border-radius: 30px;
+    background: linear-gradient(to bottom left, #479DEB, #BE1DF7);
+  }
+  
+  .post-title {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .post-content {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .post-data {
+    text-align: end;
+    font-size: 14px;
+    color: #d3d3d3;
+  }
+  
 
 .organizers {
     color: white;
@@ -375,6 +434,11 @@ footer {
 }
 
 @media only screen and (max-width: 1465px) {
+
+    .anunturi {
+        flex-direction: column;
+    }
+
     .about {
         margin: 6% 13%;
     }
